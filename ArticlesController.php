@@ -9,6 +9,7 @@ class ArticlesController extends AppController
         parent::initialize();
 
         $this->loadComponent('Paginator');
+        $this->loadComponent('Flash'); 
     }
 
     public function index() {
